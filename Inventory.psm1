@@ -1,7 +1,5 @@
 
 $Script:DirDir = "D:\Inventory"
-#find directory yourself
-#$Script:PSScriptRoot = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
 
 function get-ADList{
 	import-module activedirectory
